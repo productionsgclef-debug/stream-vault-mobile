@@ -1,6 +1,7 @@
 {
   "buildCommand": "pnpm build",
   "outputDirectory": "dist",
+  "framework": "nextjs",
   "env": {
     "NODE_ENV": "production"
   }
