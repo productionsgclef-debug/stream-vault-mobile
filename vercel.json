@@ -1,8 +1,15 @@
 {
-  "buildCommand": "pnpm build",
-  "outputDirectory": "dist",
-  "framework": "nextjs",
-  "env": {
-    "NODE_ENV": "production"
-  }
+  "version": 2,
+  "builds": [
+    {
+      "src": "server/_core/index.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server/_core/index.ts"
+    }
+  ]
 }
