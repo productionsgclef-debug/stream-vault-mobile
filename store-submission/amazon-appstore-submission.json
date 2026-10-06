@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0",
+  "store": "Amazon Appstore",
+  "platform": "Fire OS / Android",
+  "submissionStatus": "DRAFT_NOT_READY",
+  "app": {
+    "title": "TaskStream",
+    "displayTitle": "TaskStream",
+    "packageName": "space.manus.stream.vault.mobile.t20260318025643",
+    "versionName": "1.0.0",
+    "versionCode": null,
+    "category": "Entertainment",
+    "contentRating": "To be completed in Amazon Developer Console",
+    "price": "Free",
+    "distribution": "To be selected in Amazon Developer Console"
+  },
+  "listing": {
+    "shortDescription": "Discover, organize, and stream your favorite movies and series in one private media library.",
+    "longDescription": "TaskStream is a media streaming experience for discovering movies and series, browsing by genre, searching for content, saving favorites, and continuing where you left off. The app is designed with a focused, Netflix-inspired interface and supports a dark viewing experience, watch history, and personal media organization.\n\nTaskStream is intended for content that you own, operate, or are authorized to distribute. Availability of titles and playback depends on the configured catalog and rights provided by the service operator.\n\nThe current product concept also references wallet, monetization, affiliate, and Bitcoin-mining functionality. Those features must be implemented, disclosed, and reviewed for Amazon policy compliance before submission; they are not represented as available streaming features in this draft listing.",
+    "featureBullets": [
+      "Browse movies and series by genre and category",
+      "Search for titles and discover new content",
+      "Save favorites and maintain a personal watchlist",
+      "Track viewing history and continue watching",
+      "Dark, media-focused interface for comfortable viewing"
+    ],
+    "keywords": [
+      "streaming",
+      "movies",
+      "tv shows",
+      "series",
+      "entertainment",
+      "media player",
+      "watchlist",
+      "video library",
+      "on demand",
+      "content discovery"
+    ],
+    "supportEmail": "support@streamvault.app",
+    "supportUrl": null,
+    "privacyPolicyUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "reviewerNotes": {
+    "testAccount": null,
+    "instructions": "A reviewer test account and deterministic test catalog must be supplied if login is required. Confirm that every title is authorized for distribution. The product brief references Bitcoin-mining functionality; disclose the exact implementation and data flows to Amazon, and do not submit until policy eligibility is confirmed. If mining is performed on-device or the app facilitates cryptocurrency transactions, remove or disable that functionality before submission.",
+    "knownRisks": [
+      "No signed release APK or AAB is included in this bundle.",
+      "No Amazon-compliant screenshot set or feature graphic is included.",
+      "No public privacy policy URL is configured.",
+      "The repository contains placeholder catalog artwork and sample titles that must be replaced or verified before review.",
+      "Bitcoin-mining and wallet-related functionality requires explicit product and policy review."
+    ]
+  },
+  "assets": {
+    "icon": {
+      "source": "../assets/images/icon.png",
+      "required": true,
+      "status": "available",
+      "sha256": "0bfbb414f11b22acb5e347f40152d68778a75a53458298af0b5c6d2ec45c78de"
+    },
+    "screenshots": {
+      "required": true,
+      "status": "missing",
+      "expectedCount": "At least 2; prepare 5-8 device screenshots",
+      "recommendedDimensions": "1080x1920 PNG or JPEG"
+    },
+    "featureGraphic": {
+      "required": false,
+      "status": "missing",
+      "recommendedDimensions": "1024x500 PNG or JPEG"
+    },
+    "releaseBinary": {
+      "required": true,
+      "status": "missing",
+      "acceptedFormats": [
+        "APK",
+        "AAB"
+      ]
+    }
+  },
+  "amazonWorkflow": [
+    "Create or open the Stream Vault app entry in Amazon Developer Console.",
+    "Upload and validate the signed Fire OS APK or AAB.",
+    "Complete device targeting and compatibility details.",
+    "Add the listing metadata, privacy URL, support URL, icon, screenshots, and any required promotional assets.",
+    "Complete content rating, data-safety, permissions, and reviewer-access fields.",
+    "Review the exact submission and submit only after the policy blockers in the readiness report are resolved."
+  ],
+  "source": {
+    "repository": "https://github.com/productionsgclef-debug/stream-vault-mobile",
+    "sourceCommit": "f9bd9e6",
+    "referenceWebApp": "https://khaki-stream-task-go.base44.app"
+  }
+}
